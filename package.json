@@ -1,5 +1,5 @@
 {
-  "name": "my_chat_app",
+  "name": "chatapp",
   "version": "0.0.0",
   "description": "Simple chat app",
   "main": "index.js",
@@ -11,16 +11,18 @@
     , "email": "davecharnuska@gmail.com"
     , "url": "https://github.com/charleszardo/chat_app"
   },
+  "repository": {
+      "type": "git"
+    , "url": "https://github.com/charleszardo/chat_app"
+  },
   "license": "ISC",
-  "socket.io": "1.0.x",
-  "mime": "~1.2.7",
-  "node-static": "^0.7.4",
   "bugs": {
       "url": "https://github.com/charleszardo/chat_app"
     , "email": "davecharnuska@gmail.com"
   },
-  "repository": {
-      "type": "git"
-    , "url": "https://github.com/charleszardo/chat_app"
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "node-static": "^0.7.4",
+    "socket.io": "1.0.x"
   }
 }
